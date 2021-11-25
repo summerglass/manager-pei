@@ -19,6 +19,22 @@ const routes = [
         },
         component: () => import("../views/Welcome.vue"),
       },
+      {
+        name: "test",
+        path: "/test",
+        meta: {
+          title: "练手页",
+        },
+        component: () => import("../views/test.vue"),
+      },
+      {
+        name: "sw",
+        path: "/sw",
+        meta: {
+          title: "练手页",
+        },
+        component: () => import("../views/sw.vue"),
+      },
     ],
   },
   {

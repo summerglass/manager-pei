@@ -35,7 +35,9 @@
     },
     methods: {
       goHome() {
-        this.$router.push("/welcome");
+        // this.$router.push("/welcome");
+        console.log(location.href);
+        location.href = "./welcome";
       },
       login() {
         this.$refs.userForm.validate((res) => {

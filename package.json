@@ -13,7 +13,9 @@
     "element-plus": "^1.2.0-beta.2",
     "node-sass": "^6.0.1",
     "sass": "^1.43.4",
+    "swiper": "5.x",
     "vue": "^3.2.16",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2"
   },
